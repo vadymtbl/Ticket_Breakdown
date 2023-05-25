@@ -19,7 +19,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 
 
-**Ticket 1: Create a custom ID field for Agents**
+### Ticket 1: Create a custom ID field for Agents
 
 **Description:** We need to add a new field to the Agents table in the database that will allow Facilities to save their own custom IDs for each Agent they work with. This field needs to be added to the table, and the API and front-end forms/screens need to be updated to accommodate this change.
 
@@ -40,7 +40,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - Modify the report generation function to look up Custom ID when generating reports
 
 
-**Ticket 2: Allow Facilities to set Custom IDs for Agents**
+### Ticket 2: Allow Facilities to set Custom IDs for Agents
 
 **Description:** We need to build out functionality to allow Facilities to set Custom IDs for Agents they are working with. This includes updating the front-end UI to allow Facilities to enter Custom IDs, as well as updating the API to accept them when updating the Agent record.
 
@@ -59,7 +59,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - Modify the API endpoint that handles updating Agents to allow Facilities to include the Custom ID when editing an Agent record
 
 
-**Ticket 3: Update report generation function to include Custom IDs**
+### Ticket 3: Update report generation function to include Custom IDs
 
 **Description:** We need to update the report generation function to use the Custom ID instead of the internal database ID when generating reports, if it is available. 
 
@@ -76,7 +76,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - Regenerate all existing reports using the updated report generation function
 
 
-**Ticket 4: Update user documentation regarding Custom IDs**
+### Ticket 4: Update user documentation regarding Custom IDs
 
 **Description:** We need to update our user documentation to include information about the recently added Custom ID functionality. This includes instructions on how to set and manage Custom IDs, as well as any other relevant details.
 
